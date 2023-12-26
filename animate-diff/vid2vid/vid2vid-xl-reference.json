@@ -226,7 +226,7 @@
         "1": 246
       },
       "flags": {},
-      "order": 17,
+      "order": 18,
       "mode": 0,
       "inputs": [
         {
@@ -350,7 +350,7 @@
         "Node name for S&R": "KSampler"
       },
       "widgets_values": [
-        672298902142512,
+        274855895117498,
         "randomize",
         8,
         1.5,
@@ -861,7 +861,7 @@
         "1": 54
       },
       "flags": {},
-      "order": 13,
+      "order": 14,
       "mode": 0,
       "inputs": [
         {
@@ -893,7 +893,7 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "Donald Trump, full body, single character, masterpiece, high detailed, photorealistic, 8k,"
+        "Kungfu panda, pixar movie character, full body, single character, masterpiece, high detailed, photorealistic, 8k,"
       ]
     },
     {
@@ -908,7 +908,7 @@
         "1": 54
       },
       "flags": {},
-      "order": 14,
+      "order": 16,
       "mode": 0,
       "inputs": [
         {
@@ -940,7 +940,7 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "ugly, low quality"
+        "extra objects, ugly, low quality"
       ]
     },
     {
@@ -957,7 +957,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 15,
+      "order": 13,
       "mode": 0,
       "inputs": [
         {
@@ -989,7 +989,7 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "Donald Trump, full body, single character, masterpiece, high detailed, photorealistic, 8k,"
+        "Kungfu panda, pixar movie character, full body, single character, masterpiece, high detailed, photorealistic, 8k,"
       ]
     },
     {
@@ -1004,7 +1004,7 @@
         "1": 54
       },
       "flags": {},
-      "order": 16,
+      "order": 15,
       "mode": 0,
       "inputs": [
         {
@@ -1036,7 +1036,7 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "ugly, low quality"
+        "extra objects, ugly, low quality"
       ]
     },
     {
@@ -1071,120 +1071,6 @@
         1024,
         1024,
         1
-      ]
-    },
-    {
-      "id": 117,
-      "type": "PrimitiveNode",
-      "pos": [
-        -2344,
-        -607
-      ],
-      "size": {
-        "0": 368.56787109375,
-        "1": 231.2927703857422
-      },
-      "flags": {},
-      "order": 8,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            224,
-            225
-          ],
-          "slot_index": 0,
-          "widget": {
-            "name": "text"
-          }
-        }
-      ],
-      "properties": {
-        "Run widget replace on values": false
-      },
-      "widgets_values": [
-        "Donald Trump, full body, single character, masterpiece, high detailed, photorealistic, 8k,"
-      ]
-    },
-    {
-      "id": 16,
-      "type": "DWPreprocessor",
-      "pos": [
-        -236,
-        159
-      ],
-      "size": {
-        "0": 315,
-        "1": 178
-      },
-      "flags": {},
-      "order": 11,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 28
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            49
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "DWPreprocessor"
-      },
-      "widgets_values": [
-        "enable",
-        "enable",
-        "disable",
-        512,
-        "yolox_l.onnx",
-        "dw-ll_ucoco_384.onnx"
-      ]
-    },
-    {
-      "id": 118,
-      "type": "PrimitiveNode",
-      "pos": [
-        -2344,
-        -319
-      ],
-      "size": {
-        "0": 368.4943542480469,
-        "1": 217.55209350585938
-      },
-      "flags": {},
-      "order": 9,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            226,
-            227
-          ],
-          "slot_index": 0,
-          "widget": {
-            "name": "text"
-          }
-        }
-      ],
-      "properties": {
-        "Run widget replace on values": false
-      },
-      "widgets_values": [
-        "ugly, low quality"
       ]
     },
     {
@@ -1224,7 +1110,7 @@
         "1": 98
       },
       "flags": {},
-      "order": 10,
+      "order": 8,
       "mode": 0,
       "outputs": [
         {
@@ -1275,7 +1161,7 @@
         "1": 262
       },
       "flags": {},
-      "order": 18,
+      "order": 17,
       "mode": 0,
       "inputs": [
         {
@@ -1314,13 +1200,127 @@
         "Node name for S&R": "KSampler"
       },
       "widgets_values": [
-        1003791210878193,
+        978537986445092,
         "randomize",
         4,
         2,
         "dpmpp_sde",
         "karras",
         1
+      ]
+    },
+    {
+      "id": 117,
+      "type": "PrimitiveNode",
+      "pos": [
+        -2344,
+        -607
+      ],
+      "size": {
+        "0": 368.56787109375,
+        "1": 231.2927703857422
+      },
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            224,
+            225
+          ],
+          "slot_index": 0,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "properties": {
+        "Run widget replace on values": false
+      },
+      "widgets_values": [
+        "Kungfu panda, pixar movie character, full body, single character, masterpiece, high detailed, photorealistic, 8k,"
+      ]
+    },
+    {
+      "id": 16,
+      "type": "DWPreprocessor",
+      "pos": [
+        -236,
+        159
+      ],
+      "size": {
+        "0": 315,
+        "1": 178
+      },
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 28
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            49
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "DWPreprocessor"
+      },
+      "widgets_values": [
+        "disable",
+        "enable",
+        "disable",
+        512,
+        "yolox_l.onnx",
+        "dw-ll_ucoco_384.onnx"
+      ]
+    },
+    {
+      "id": 118,
+      "type": "PrimitiveNode",
+      "pos": [
+        -2344,
+        -319
+      ],
+      "size": {
+        "0": 368.4943542480469,
+        "1": 217.55209350585938
+      },
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            226,
+            227
+          ],
+          "slot_index": 0,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "properties": {
+        "Run widget replace on values": false
+      },
+      "widgets_values": [
+        "extra objects, ugly, low quality"
       ]
     },
     {
@@ -1353,7 +1353,7 @@
         "loop_count": 0,
         "filename_prefix": "AnimateDiff",
         "format": "video/h264-mp4",
-        "pingpong": true,
+        "pingpong": false,
         "save_image": true,
         "crf": 20,
         "save_metadata": true,
@@ -1362,7 +1362,7 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "AnimateDiff_00117.mp4",
+            "filename": "AnimateDiff_00119.mp4",
             "subfolder": "",
             "type": "output",
             "format": "video/h264-mp4"

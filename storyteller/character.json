@@ -173,7 +173,7 @@
         "1": 348
       },
       "flags": {},
-      "order": 9,
+      "order": 8,
       "mode": 0,
       "inputs": [
         {
@@ -344,45 +344,6 @@
       ]
     },
     {
-      "id": 52,
-      "type": "LoadImage",
-      "pos": [
-        -190,
-        182
-      ],
-      "size": [
-        315,
-        314.0000114440918
-      ],
-      "flags": {},
-      "order": 3,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            77
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": null,
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LoadImage"
-      },
-      "widgets_values": [
-        "ComfyUI_00092_.png",
-        "image"
-      ]
-    },
-    {
       "id": 35,
       "type": "EmptyLatentImage",
       "pos": [
@@ -394,7 +355,7 @@
         "1": 106
       },
       "flags": {},
-      "order": 4,
+      "order": 3,
       "mode": 0,
       "outputs": [
         {
@@ -467,7 +428,7 @@
         "Node name for S&R": "KSampler"
       },
       "widgets_values": [
-        445323295114946,
+        990666481048753,
         "randomize",
         8,
         2,
@@ -550,12 +511,12 @@
         -298,
         743
       ],
-      "size": [
-        304.7401445312496,
-        156.397184082031
-      ],
+      "size": {
+        "0": 304.7401428222656,
+        "1": 156.39718627929688
+      },
       "flags": {},
-      "order": 5,
+      "order": 4,
       "mode": 0,
       "outputs": [
         {
@@ -590,7 +551,7 @@
         "1": 258
       },
       "flags": {},
-      "order": 8,
+      "order": 9,
       "mode": 0,
       "inputs": [
         {
@@ -654,7 +615,7 @@
         "1": 58
       },
       "flags": {},
-      "order": 6,
+      "order": 5,
       "mode": 0,
       "outputs": [
         {
@@ -686,7 +647,7 @@
         "1": 118.6666259765625
       },
       "flags": {},
-      "order": 7,
+      "order": 6,
       "mode": 0,
       "outputs": [
         {
@@ -707,6 +668,45 @@
       },
       "widgets_values": [
         "(((full body))), photorealistic, high quality, 8k"
+      ]
+    },
+    {
+      "id": 52,
+      "type": "LoadImage",
+      "pos": [
+        -190,
+        182
+      ],
+      "size": {
+        "0": 315,
+        "1": 314
+      },
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            77
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "alex.png",
+        "image"
       ]
     }
   ],
